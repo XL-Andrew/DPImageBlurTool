@@ -13,6 +13,8 @@
 		493275251F46DBE100823A1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 493275231F46DBE100823A1D /* Main.storyboard */; };
 		493275271F46DBE100823A1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 493275261F46DBE100823A1D /* Assets.xcassets */; };
 		4932752A1F46DBE100823A1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 493275281F46DBE100823A1D /* LaunchScreen.storyboard */; };
+		493DC2181F46DE8500381A3A /* DPImageBlurTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 493DC2171F46DE8500381A3A /* DPImageBlurTool.m */; };
+		493DC21A1F46DE9B00381A3A /* github.png in Resources */ = {isa = PBXBuildFile; fileRef = 493DC2191F46DE9B00381A3A /* github.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		493275261F46DBE100823A1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		493275291F46DBE100823A1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4932752B1F46DBE100823A1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		493DC2161F46DE8500381A3A /* DPImageBlurTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPImageBlurTool.h; sourceTree = "<group>"; };
+		493DC2171F46DE8500381A3A /* DPImageBlurTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPImageBlurTool.m; sourceTree = "<group>"; };
+		493DC2191F46DE9B00381A3A /* github.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = github.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +63,12 @@
 		493275191F46DBE100823A1D /* DPImageBlurTool */ = {
 			isa = PBXGroup;
 			children = (
+				493DC2151F46DE8500381A3A /* Tool */,
 				4932751D1F46DBE100823A1D /* AppDelegate.h */,
 				4932751E1F46DBE100823A1D /* AppDelegate.m */,
 				493275201F46DBE100823A1D /* ViewController.h */,
 				493275211F46DBE100823A1D /* ViewController.m */,
+				493DC2191F46DE9B00381A3A /* github.png */,
 				493275231F46DBE100823A1D /* Main.storyboard */,
 				493275261F46DBE100823A1D /* Assets.xcassets */,
 				493275281F46DBE100823A1D /* LaunchScreen.storyboard */,
@@ -77,6 +84,15 @@
 				4932751B1F46DBE100823A1D /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		493DC2151F46DE8500381A3A /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				493DC2161F46DE8500381A3A /* DPImageBlurTool.h */,
+				493DC2171F46DE8500381A3A /* DPImageBlurTool.m */,
+			);
+			path = Tool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +153,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				493DC21A1F46DE9B00381A3A /* github.png in Resources */,
 				4932752A1F46DBE100823A1D /* LaunchScreen.storyboard in Resources */,
 				493275271F46DBE100823A1D /* Assets.xcassets in Resources */,
 				493275251F46DBE100823A1D /* Main.storyboard in Resources */,
@@ -152,6 +169,7 @@
 			files = (
 				493275221F46DBE100823A1D /* ViewController.m in Sources */,
 				4932751F1F46DBE100823A1D /* AppDelegate.m in Sources */,
+				493DC2181F46DE8500381A3A /* DPImageBlurTool.m in Sources */,
 				4932751C1F46DBE100823A1D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +327,7 @@
 				493275301F46DBE100823A1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
